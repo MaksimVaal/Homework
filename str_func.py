@@ -1,3 +1,6 @@
 def upper_str(value):
-    """Делаем все буквы большими"""
     return value.upper()
+
+
+def first_upper_word(value):
+    return value.title()
